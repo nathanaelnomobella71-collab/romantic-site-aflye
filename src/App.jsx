@@ -77,7 +77,7 @@ export default function App() {
           <Sparkles size={16} /> Pour {loveData.girlfriendName} <Sparkles size={16} />
         </div>
         <h1 className="text-4xl md:text-6xl font-extrabold text-rose-900 tracking-tight mb-4 font-serif">
-          Notre Histoire d'Amour
+         AFLYE
         </h1>
         <p className="text-lg text-rose-700/80 max-w-xl mx-auto italic">
           "{loveData.messages[0]}"
@@ -87,7 +87,7 @@ export default function App() {
       {/* Lecteur YouTube avec Lancement Automatique */}
       <section className="bg-white/70 backdrop-blur-md border border-rose-200 shadow-xl rounded-3xl p-6 md:p-8 max-w-xl w-full text-center mb-12 relative z-10">
         <h3 className="text-xl font-bold text-rose-800 mb-4 flex items-center justify-center gap-2">
-          <Music className="text-deepPink" /> Notre Chanson : Amour Sincère - Yitou
+          <Music className="text-deepPink" />  Amour Sincère - Yitou
         </h3>
         <div className="w-full rounded-2xl overflow-hidden shadow-md bg-rose-50">
           <iframe
@@ -181,7 +181,7 @@ export default function App() {
       {/* Galerie Photos Polaroid */}
       <section className="max-w-5xl w-full mb-16 relative z-10">
         <h2 className="text-2xl md:text-3xl font-bold text-center text-rose-900 mb-8 font-serif flex items-center justify-center gap-2">
-          <Camera className="text-deepPink" /> Nos Plus Beaux Souvenirs
+          <Camera className="text-deepPink" /> MADAME MA FEMME
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 px-4">
           {loveData.photos.map((photo) => (
